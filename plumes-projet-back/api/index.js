@@ -1,2 +1,2 @@
-const app = require("../server.js");
-module.exports = new app();
+import app from '../app/routes';
+export default app;
